@@ -1,207 +1,473 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 50da2b4e-34b1-4787-8ee6-5d7d17f804f4)
-
-  (paper "A5")
-
-  (lib_symbols
-  )
-
-  (bus_alias "SPI" (members "MOSI" "MISO" "SCLK" "~{CS}"))
-  (junction (at 90.17 43.18) (diameter 0) (color 0 0 0 0)
-    (uuid e24450bb-a1e7-43ab-bf31-1431b13e8f44)
-  )
-
-  (wire (pts (xy 59.69 62.23) (xy 92.71 62.23))
-    (stroke (width 0) (type default))
-    (uuid 2ed28b3c-adab-433f-b730-7249d79c6fa7)
-  )
-  (wire (pts (xy 127 43.18) (xy 127 57.15))
-    (stroke (width 0) (type default))
-    (uuid 38d912ab-7600-4f57-be85-ea510def16d6)
-  )
-  (bus (pts (xy 118.11 62.23) (xy 133.35 62.23))
-    (stroke (width 0) (type default))
-    (uuid 391fc72c-bab4-4b97-a508-b0c9f56c2fa4)
-  )
-
-  (wire (pts (xy 90.17 43.18) (xy 80.01 43.18))
-    (stroke (width 0) (type default))
-    (uuid 426b762c-8d50-40f5-ae0e-43aeffc17780)
-  )
-  (wire (pts (xy 64.77 55.88) (xy 64.77 43.18))
-    (stroke (width 0) (type default))
-    (uuid 9298590a-2188-4e94-87a7-6ae1ecfe8217)
-  )
-  (wire (pts (xy 59.69 68.58) (xy 92.71 68.58))
-    (stroke (width 0) (type default))
-    (uuid 93c196f4-d05f-4724-9d2f-2290f976a2b7)
-  )
-  (wire (pts (xy 127 43.18) (xy 90.17 43.18))
-    (stroke (width 0) (type default))
-    (uuid a0e8b2eb-8354-444e-9870-b0ea416134dd)
-  )
-  (wire (pts (xy 59.69 66.04) (xy 92.71 66.04))
-    (stroke (width 0) (type default))
-    (uuid acd6966f-1ee7-45e1-8b65-2bb7dbbc329d)
-  )
-  (wire (pts (xy 133.35 57.15) (xy 127 57.15))
-    (stroke (width 0) (type default))
-    (uuid c04b22e8-05a6-4a88-84dd-cf2aff4c0bbc)
-  )
-  (wire (pts (xy 92.71 55.88) (xy 90.17 55.88))
-    (stroke (width 0) (type default))
-    (uuid cf517fb6-f3a8-4b88-8377-cb3d27eb5e00)
-  )
-  (wire (pts (xy 59.69 55.88) (xy 64.77 55.88))
-    (stroke (width 0) (type default))
-    (uuid d3241755-852a-464b-9585-b68dedc0d6f6)
-  )
-  (wire (pts (xy 59.69 59.69) (xy 92.71 59.69))
-    (stroke (width 0) (type default))
-    (uuid dd7fd579-1f2d-4eec-a986-ffbdf7b5c2a8)
-  )
-  (wire (pts (xy 90.17 55.88) (xy 90.17 43.18))
-    (stroke (width 0) (type default))
-    (uuid dd94032e-318f-4742-884e-8bbfc60cac8e)
-  )
-  (wire (pts (xy 64.77 43.18) (xy 67.31 43.18))
-    (stroke (width 0) (type default))
-    (uuid df1983dd-ed40-442f-a3e6-dba1c7e12903)
-  )
-
-  (sheet (at 67.31 39.37) (size 12.7 7.62) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 36ef99fe-a89f-4e2b-807e-d0c916080945)
-    (property "Sheetname" "LDO" (at 67.31 38.6584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "ldo.kicad_sch" (at 67.31 47.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "3V3" output (at 80.01 43.18 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 90d306e7-2b53-4519-95e2-90edaa2a7669)
-    )
-    (pin "5V" input (at 67.31 43.18 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6032f158-071a-4623-8460-b5a8a9898378)
-    )
-    (instances
-      (project "busbuddy"
-        (path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 92.71 53.34) (size 25.4 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 81f185f6-8abd-42b2-b2d9-f7e00f67ab8b)
-    (property "Sheetname" "MCU" (at 92.71 52.6284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcu.kicad_sch" (at 92.71 71.7046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "TXD" output (at 92.71 59.69 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e96b5cfd-2514-41a3-8869-3c8c71ee5b4f)
-    )
-    (pin "RXD" input (at 92.71 62.23 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 46122c52-ec84-49f8-bb2a-39424ab49d9e)
-    )
-    (pin "{SPI}" bidirectional (at 118.11 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid e14a1998-6ba9-4fac-bbb7-edc697ca5a0c)
-    )
-    (pin "3V3" input (at 92.71 55.88 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid dec3254c-d0b7-46b3-9fe4-f39ba294024d)
-    )
-    (pin "GPIO0" input (at 92.71 68.58 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8614f482-99c5-4fd5-9b64-9f6f0647fb04)
-    )
-    (pin "~{RST}" input (at 92.71 66.04 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 9ef3b123-0f06-41d7-a62f-4123f874048d)
-    )
-    (instances
-      (project "busbuddy"
-        (path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 44.45 53.34) (size 15.24 17.78) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 951b5697-f1e3-4d2e-841e-7032f41eb35f)
-    (property "Sheetname" "USB" (at 44.45 52.6284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "usb.kicad_sch" (at 44.45 71.7046 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Field2" "" (at 44.45 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "TXD" output (at 59.69 62.23 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 3a8215c4-bb7b-49b1-b6e0-96bde4a0927a)
-    )
-    (pin "RXD" input (at 59.69 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid fb3d52a5-23a2-456f-8f8c-94815a244429)
-    )
-    (pin "5V" output (at 59.69 55.88 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 4d3be58a-aa4e-4df5-8171-8cc53cf7d4a9)
-    )
-    (pin "~{RST}" output (at 59.69 66.04 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 624f87a7-f7fd-42c2-acdb-3f4020747f0f)
-    )
-    (pin "GPIO0" output (at 59.69 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 6537f2c7-6b54-4693-8bff-c398e4fcc4d7)
-    )
-    (instances
-      (project "busbuddy"
-        (path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 133.35 53.34) (size 19.05 12.7) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d598949e-74c6-4803-8db9-612ef03f3111)
-    (property "Sheetname" "EPD" (at 133.35 52.6284 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "epd.kicad_sch" (at 133.35 66.6246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (pin "{SPI}" bidirectional (at 133.35 62.23 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid dcf2e7ec-e13f-435c-afdc-6af5a7b8bfad)
-    )
-    (pin "3V3" input (at 133.35 57.15 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 8886c7ca-ab7d-42dc-9a50-9e242336f23b)
-    )
-    (instances
-      (project "busbuddy"
-        (path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4" (page "4"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "50da2b4e-34b1-4787-8ee6-5d7d17f804f4")
+	(paper "A5")
+	(lib_symbols)
+	(bus_alias "SPI"
+		(members "MOSI" "MISO" "SCLK" "~{CS}")
+	)
+	(junction
+		(at 90.17 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e24450bb-a1e7-43ab-bf31-1431b13e8f44")
+	)
+	(wire
+		(pts
+			(xy 59.69 62.23) (xy 92.71 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ed28b3c-adab-433f-b730-7249d79c6fa7")
+	)
+	(wire
+		(pts
+			(xy 127 43.18) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d912ab-7600-4f57-be85-ea510def16d6")
+	)
+	(bus
+		(pts
+			(xy 118.11 62.23) (xy 133.35 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391fc72c-bab4-4b97-a508-b0c9f56c2fa4")
+	)
+	(wire
+		(pts
+			(xy 90.17 43.18) (xy 80.01 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426b762c-8d50-40f5-ae0e-43aeffc17780")
+	)
+	(wire
+		(pts
+			(xy 64.77 55.88) (xy 64.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9298590a-2188-4e94-87a7-6ae1ecfe8217")
+	)
+	(wire
+		(pts
+			(xy 59.69 68.58) (xy 92.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c196f4-d05f-4724-9d2f-2290f976a2b7")
+	)
+	(wire
+		(pts
+			(xy 127 43.18) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e8b2eb-8354-444e-9870-b0ea416134dd")
+	)
+	(wire
+		(pts
+			(xy 59.69 66.04) (xy 92.71 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd6966f-1ee7-45e1-8b65-2bb7dbbc329d")
+	)
+	(wire
+		(pts
+			(xy 133.35 57.15) (xy 127 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04b22e8-05a6-4a88-84dd-cf2aff4c0bbc")
+	)
+	(wire
+		(pts
+			(xy 92.71 55.88) (xy 90.17 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf517fb6-f3a8-4b88-8377-cb3d27eb5e00")
+	)
+	(wire
+		(pts
+			(xy 59.69 55.88) (xy 64.77 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3241755-852a-464b-9585-b68dedc0d6f6")
+	)
+	(wire
+		(pts
+			(xy 59.69 59.69) (xy 92.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd7fd579-1f2d-4eec-a986-ffbdf7b5c2a8")
+	)
+	(wire
+		(pts
+			(xy 90.17 55.88) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd94032e-318f-4742-884e-8bbfc60cac8e")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 67.31 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df1983dd-ed40-442f-a3e6-dba1c7e12903")
+	)
+	(sheet
+		(at 67.31 39.37)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "36ef99fe-a89f-4e2b-807e-d0c916080945")
+		(property "Sheetname" "LDO"
+			(at 67.31 38.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ldo.kicad_sch"
+			(at 67.31 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" output
+			(at 80.01 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "90d306e7-2b53-4519-95e2-90edaa2a7669")
+		)
+		(pin "5V" input
+			(at 67.31 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6032f158-071a-4623-8460-b5a8a9898378")
+		)
+		(instances
+			(project "busbuddy"
+				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 53.34)
+		(size 25.4 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81f185f6-8abd-42b2-b2d9-f7e00f67ab8b")
+		(property "Sheetname" "MCU"
+			(at 92.71 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 92.71 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TXD" output
+			(at 92.71 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e96b5cfd-2514-41a3-8869-3c8c71ee5b4f")
+		)
+		(pin "RXD" input
+			(at 92.71 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "46122c52-ec84-49f8-bb2a-39424ab49d9e")
+		)
+		(pin "{SPI}" bidirectional
+			(at 118.11 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e14a1998-6ba9-4fac-bbb7-edc697ca5a0c")
+		)
+		(pin "3V3" input
+			(at 92.71 55.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dec3254c-d0b7-46b3-9fe4-f39ba294024d")
+		)
+		(pin "GPIO0" input
+			(at 92.71 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8614f482-99c5-4fd5-9b64-9f6f0647fb04")
+		)
+		(pin "~{RST}" input
+			(at 92.71 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9ef3b123-0f06-41d7-a62f-4123f874048d")
+		)
+		(instances
+			(project "busbuddy"
+				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 53.34)
+		(size 15.24 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "951b5697-f1e3-4d2e-841e-7032f41eb35f")
+		(property "Sheetname" "USB"
+			(at 44.45 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 44.45 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 44.45 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "TXD" output
+			(at 59.69 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3a8215c4-bb7b-49b1-b6e0-96bde4a0927a")
+		)
+		(pin "RXD" input
+			(at 59.69 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fb3d52a5-23a2-456f-8f8c-94815a244429")
+		)
+		(pin "5V" output
+			(at 59.69 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4d3be58a-aa4e-4df5-8171-8cc53cf7d4a9")
+		)
+		(pin "~{RST}" output
+			(at 59.69 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "624f87a7-f7fd-42c2-acdb-3f4020747f0f")
+		)
+		(pin "GPIO0" output
+			(at 59.69 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6537f2c7-6b54-4693-8bff-c398e4fcc4d7")
+		)
+		(instances
+			(project "busbuddy"
+				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 133.35 53.34)
+		(size 19.05 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d598949e-74c6-4803-8db9-612ef03f3111")
+		(property "Sheetname" "EPD"
+			(at 133.35 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "epd.kicad_sch"
+			(at 133.35 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{SPI}" bidirectional
+			(at 133.35 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dcf2e7ec-e13f-435c-afdc-6af5a7b8bfad")
+		)
+		(pin "3V3" input
+			(at 133.35 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8886c7ca-ab7d-42dc-9a50-9e242336f23b")
+		)
+		(instances
+			(project "busbuddy"
+				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
