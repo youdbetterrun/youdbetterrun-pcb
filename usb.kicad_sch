@@ -5,7 +5,7 @@
 	(uuid "a1950584-01bf-490f-81b8-91a356919dd5")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:USB_C_Receptacle_USB2.0"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -13,21 +13,19 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at -10.16 19.05 0)
+				(at 0 22.225 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
+				(at 0 19.685 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -48,7 +46,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -187,7 +185,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -388,7 +386,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -2016,9 +2014,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2092,8 +2090,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2110,6 +2108,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 177.8 53.34)
@@ -2122,6 +2216,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "096d2f63-489b-4321-b4eb-3c4f2d0ca047")
+	)
+	(junction
+		(at 160.02 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21c83476-b5f7-432d-a278-c42a73dcf38d")
 	)
 	(junction
 		(at 172.72 50.8)
@@ -2146,6 +2246,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59f2f9ef-f5cc-49dc-9ab5-77955b584b44")
+	)
+	(junction
+		(at 71.12 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "663c7ab8-28e1-43a7-b34d-6d91e0e0c63f")
 	)
 	(junction
 		(at 124.46 50.8)
@@ -2177,13 +2283,59 @@
 		(color 0 0 0 0)
 		(uuid "abe77192-77a3-4bbb-a24b-3bddf90d3835")
 	)
+	(junction
+		(at 50.8 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ad9f01-9b89-42f2-93b4-b4def9685995")
+	)
 	(no_connect
 		(at 66.04 88.9)
 		(uuid "0acd6c14-3235-4dda-bb64-c206672b41c4")
 	)
 	(no_connect
+		(at 187.96 96.52)
+		(uuid "0d739465-f935-42e4-a5a1-3bcb12b6e3ec")
+	)
+	(no_connect
+		(at 187.96 83.82)
+		(uuid "21697f03-4eb5-4334-ad8b-e8e53c182bf5")
+	)
+	(no_connect
+		(at 187.96 68.58)
+		(uuid "31599889-212f-421b-8819-4d051cfa1354")
+	)
+	(no_connect
+		(at 187.96 71.12)
+		(uuid "6c118300-3391-47c6-a064-4bf5809c9d39")
+	)
+	(no_connect
+		(at 187.96 91.44)
+		(uuid "7140382b-cb26-476e-a5a0-2b88205ab04e")
+	)
+	(no_connect
+		(at 187.96 93.98)
+		(uuid "b51dbaa3-a677-4832-80fc-8b6d1f58d178")
+	)
+	(no_connect
 		(at 66.04 91.44)
 		(uuid "b5e5176b-5f55-483b-9e6a-45bdcf172de7")
+	)
+	(no_connect
+		(at 187.96 76.2)
+		(uuid "b6fe7e11-832f-453f-beea-1aa0fd25588b")
+	)
+	(no_connect
+		(at 187.96 86.36)
+		(uuid "bf595c75-71db-4716-a480-b861e71f052c")
+	)
+	(no_connect
+		(at 187.96 99.06)
+		(uuid "f7b57e84-5ba9-4a5d-ac84-81136293ebad")
+	)
+	(no_connect
+		(at 187.96 78.74)
+		(uuid "fa9d5208-e9e4-49ae-bee1-59750998d5fe")
 	)
 	(wire
 		(pts
@@ -2447,7 +2599,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 99.06) (xy 50.8 101.6)
+			(xy 50.8 99.06) (xy 50.8 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2887,6 +3039,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 100.33) (xy 50.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8c99b58-4374-4ce0-9068-61cd81a341ef")
+	)
+	(wire
+		(pts
 			(xy 157.48 104.14) (xy 162.56 104.14)
 		)
 		(stroke
@@ -3138,7 +3300,74 @@
 		(uuid "fbc97c83-6c72-4774-9897-d6c87f255c58")
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0")
+		(lib_id "power:PWR_FLAG")
+		(at 50.8 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "048b8093-3399-4ee7-b724-bb8602fa2213")
+		(property "Reference" "#FLG03"
+			(at 52.705 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 54.61 100.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 50.8 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a0bbce0-4852-49d3-9254-ef101c4744da")
+		)
+		(instances
+			(project "busbuddy"
+				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 50.8 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3172,7 +3401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2303271630_G-Switch-GT-USB-7010ASV_C2988369.pdf"
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -3181,7 +3410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 50.8 76.2 0)
 			(effects
 				(font
@@ -3330,7 +3559,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 261.62 117.475 0)
 			(effects
 				(font
@@ -3341,7 +3570,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Bipolar-Transistors-BJT_YONGYUTAI-S8050_C2891804.html"
+		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
 			(at 256.54 119.38 0)
 			(effects
 				(font
@@ -3351,7 +3580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
 			(at 256.54 119.38 0)
 			(effects
 				(font
@@ -3451,7 +3680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 91.44 91.44 0)
 			(effects
 				(font
@@ -3562,6 +3791,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 160.02 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4af0a318-8b7f-4b2a-bd9a-758a06e342d6")
+		(property "Reference" "#FLG02"
+			(at 160.02 36.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 160.02 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 160.02 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b71285f8-0372-4c86-a2d7-cfcc0f972da9")
+		)
+		(instances
+			(project "busbuddy"
+				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 127 0)
 		(unit 1)
@@ -3606,7 +3901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 175.26 127 0)
 			(effects
 				(font
@@ -3672,7 +3967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -3738,7 +4033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 144.78 25.4 0)
 			(effects
 				(font
@@ -3888,7 +4183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 33.02 0)
 			(effects
 				(font
@@ -3955,7 +4250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 160.02 43.18 0)
 			(effects
 				(font
@@ -4074,7 +4369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 241.3 93.98 0)
 			(effects
 				(font
@@ -4215,7 +4510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -4282,7 +4577,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -4443,7 +4738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Single-Chip USB-to-UART Bridge, USB 2.0 Full-Speed, 2Mbps UART, QFN-24"
 			(at 175.26 83.82 0)
 			(effects
 				(font
@@ -4631,7 +4926,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 241.3 119.38 0)
 			(effects
 				(font
@@ -4774,7 +5069,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS Diode Array, 5.5V Standoff, 3 Channels, SOT-143 package"
 			(at 121.92 91.44 0)
 			(effects
 				(font
@@ -4849,7 +5144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor, small symbol"
 			(at 86.36 91.44 0)
 			(effects
 				(font
@@ -4960,6 +5255,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 71.12 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5aafb4a-dd36-4d79-818a-60d926f88969")
+		(property "Reference" "#FLG01"
+			(at 71.12 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 71.12 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 71.12 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d23d84c2-b98b-4b80-aca1-d0bfd3c4f6c0")
+		)
+		(instances
+			(project "busbuddy"
+				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 66.04 0)
 		(unit 1)
@@ -5004,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 139.7 66.04 0)
 			(effects
 				(font
@@ -5070,7 +5431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 139.7 58.42 0)
 			(effects
 				(font
@@ -5230,7 +5591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 96.52 0)
 			(effects
 				(font
@@ -5279,7 +5640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 261.62 95.885 0)
 			(effects
 				(font
@@ -5290,7 +5651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Bipolar-Transistors-BJT_YONGYUTAI-S8050_C2891804.html"
+		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
 			(at 256.54 93.98 0)
 			(effects
 				(font
@@ -5300,7 +5661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
 			(at 256.54 93.98 0)
 			(effects
 				(font
@@ -5399,7 +5760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 127 33.02 0)
 			(effects
 				(font
@@ -5465,7 +5826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 127 25.4 0)
 			(effects
 				(font
@@ -5624,7 +5985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 86.36 95.25 0)
 			(effects
 				(font
