@@ -580,6 +580,17 @@
 		)
 		(uuid "ffb8d95e-db3b-4a57-a3cf-f6f7ef7d6cd6")
 	)
+	(label "BYP"
+		(at 93.98 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92e67f2f-e067-459f-a9b0-90a15dd887c7")
+	)
 	(hierarchical_label "5V"
 		(shape input)
 		(at 62.23 60.96 180)
@@ -940,6 +951,33 @@
 			)
 		)
 		(property "Description" "500mA Low drop-out regulator, Fixed Output 3.3V, SOT-23-5"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C9055"
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SPX3819M5-L-3-3/TR "
+			(at 83.82 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MaxLinear"
 			(at 83.82 63.5 0)
 			(effects
 				(font

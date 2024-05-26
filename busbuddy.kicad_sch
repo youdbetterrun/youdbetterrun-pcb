@@ -22,7 +22,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2ed28b3c-adab-433f-b730-7249d79c6fa7")
+		(uuid "0a47dc8d-047f-404d-8fc2-cb8278495178")
 	)
 	(wire
 		(pts
@@ -83,6 +83,16 @@
 			(type default)
 		)
 		(uuid "93c196f4-d05f-4724-9d2f-2290f976a2b7")
+	)
+	(wire
+		(pts
+			(xy 59.69 59.69) (xy 92.71 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09c9dfd-c529-40af-a19f-ca1ec95d2bd2")
 	)
 	(wire
 		(pts
@@ -156,16 +166,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 59.69) (xy 92.71 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd7fd579-1f2d-4eec-a986-ffbdf7b5c2a8")
-	)
-	(wire
-		(pts
 			(xy 90.17 55.88) (xy 90.17 43.18)
 		)
 		(stroke
@@ -183,6 +183,16 @@
 			(type default)
 		)
 		(uuid "df1983dd-ed40-442f-a3e6-dba1c7e12903")
+	)
+	(text "TX/RX flipped in USB sheet."
+		(exclude_from_sim no)
+		(at 76.2 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "244b8a04-bf6f-4142-9b19-d34e5d34d4b0")
 	)
 	(sheet
 		(at 67.31 39.37)
@@ -410,7 +420,7 @@
 			)
 		)
 		(pin "TXD" output
-			(at 59.69 62.23 0)
+			(at 59.69 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -420,7 +430,7 @@
 			(uuid "3a8215c4-bb7b-49b1-b6e0-96bde4a0927a")
 		)
 		(pin "RXD" input
-			(at 59.69 59.69 0)
+			(at 59.69 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
