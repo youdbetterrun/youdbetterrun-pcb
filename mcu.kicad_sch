@@ -1465,7 +1465,7 @@
 				)
 			)
 		)
-		(symbol "busbuddy:ESP-12F"
+		(symbol "youdbetterrun:ESP-12F"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3757,7 +3757,7 @@
 			(uuid "beb1dd60-b6cf-4b30-b370-01110aefcdc3")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "#PWR0304")
 					(unit 1)
@@ -3824,7 +3824,7 @@
 			(uuid "e262377c-a525-4c22-ad2b-628a345cc0b0")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "#PWR0309")
 					(unit 1)
@@ -3975,7 +3975,7 @@
 			(uuid "7492b580-7ba8-4519-8593-e0f37db35660")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "C302")
 					(unit 1)
@@ -4126,7 +4126,7 @@
 			(uuid "ca73bf89-74db-4246-bd4f-ed2dba186a84")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "C301")
 					(unit 1)
@@ -4193,7 +4193,7 @@
 			(uuid "124d42e5-1ea0-405b-85be-c3e65c191a07")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "#PWR0308")
 					(unit 1)
@@ -4337,7 +4337,7 @@
 			(uuid "04ca2828-921d-47ec-9ae4-2acc0d74f371")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "J302")
 					(unit 1)
@@ -4487,7 +4487,7 @@
 			(uuid "0a5be26b-ed30-42de-8c31-84183d5b91c2")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "J301")
 					(unit 1)
@@ -4629,7 +4629,7 @@
 			(uuid "fb4d8406-21c0-46e7-a8cd-96b2249a379d")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "R304")
 					(unit 1)
@@ -4695,7 +4695,7 @@
 			(uuid "5e381456-30f3-4ddd-aa00-8e602c7dff6a")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "#PWR0303")
 					(unit 1)
@@ -4837,7 +4837,7 @@
 			(uuid "ddac6b4d-05d0-4174-a64e-c970d841c81a")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "R302")
 					(unit 1)
@@ -4902,7 +4902,7 @@
 			(uuid "b6b66e40-ea30-4ead-b169-6428e0a02e94")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "#PWR0310")
 					(unit 1)
@@ -4968,7 +4968,7 @@
 			(uuid "bf7c1cd2-13ec-492d-b774-a5fe1e5aadf9")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "#PWR0301")
 					(unit 1)
@@ -5109,7 +5109,7 @@
 			(uuid "dd6142f5-08f2-40ae-8888-27cdce1e623f")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "R303")
 					(unit 1)
@@ -5118,7 +5118,7 @@
 		)
 	)
 	(symbol
-		(lib_id "busbuddy:ESP-12F")
+		(lib_id "youdbetterrun:ESP-12F")
 		(at 160.02 104.14 0)
 		(mirror y)
 		(unit 1)
@@ -5267,7 +5267,7 @@
 			(uuid "739cffb7-4513-4656-a472-3f971fc9292f")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "U301")
 					(unit 1)
@@ -5304,7 +5304,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "busbuddy:TS-1088R-02026_SW_SMD_3x4mm"
+		(property "Footprint" "youdbetterrun:TS-1088R-02026_SW_SMD_3x4mm"
 			(at 143.51 78.74 0)
 			(effects
 				(font
@@ -5390,7 +5390,7 @@
 			(uuid "be3aadcd-f132-4d95-8d8c-de342208b0c9")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "SW302")
 					(unit 1)
@@ -5532,7 +5532,7 @@
 			(uuid "12c27f01-6c8a-497c-82c1-ebb789d5fae6")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "R301")
 					(unit 1)
@@ -5567,7 +5567,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "busbuddy:TS-1088R-02026_SW_SMD_3x4mm"
+		(property "Footprint" "youdbetterrun:TS-1088R-02026_SW_SMD_3x4mm"
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -5653,7 +5653,7 @@
 			(uuid "e6e96487-1e95-4962-a25e-ffaeb6d7e6a8")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/81f185f6-8abd-42b2-b2d9-f7e00f67ab8b"
 					(reference "SW301")
 					(unit 1)

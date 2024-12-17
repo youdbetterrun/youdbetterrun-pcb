@@ -464,14 +464,14 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "busbuddy"
+      "youdbetterrun"
     ],
     "pinned_symbol_libs": [
-      "busbuddy"
+      "youdbetterrun"
     ]
   },
   "meta": {
-    "filename": "busbuddy.kicad_pro",
+    "filename": "youdbetterrun.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -509,7 +509,7 @@
       "plot": "Fabrication Artifacts",
       "pos_files": "Fabrication Artifacts/",
       "specctra_dsn": "",
-      "step": "../../../tmp/busbuddy.step",
+      "step": "../../../tmp/youdbetterrun.step",
       "svg": "",
       "vrml": ""
     },

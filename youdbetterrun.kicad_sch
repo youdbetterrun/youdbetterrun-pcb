@@ -245,7 +245,7 @@
 			(uuid "6032f158-071a-4623-8460-b5a8a9898378")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4"
 					(page "5")
 				)
@@ -373,7 +373,7 @@
 			(uuid "66579a49-baa8-4b09-9d97-e69bcb43e751")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4"
 					(page "3")
 				)
@@ -470,7 +470,7 @@
 			(uuid "6537f2c7-6b54-4693-8bff-c398e4fcc4d7")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4"
 					(page "2")
 				)
@@ -558,7 +558,7 @@
 			(uuid "cc084c23-28a3-4a07-a3fd-d1aabc34b834")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4"
 					(page "4")
 				)

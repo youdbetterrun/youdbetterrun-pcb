@@ -3413,7 +3413,7 @@
 			(uuid "0a0bbce0-4852-49d3-9254-ef101c4744da")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#FLG03")
 					(unit 1)
@@ -3447,7 +3447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "busbuddy:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "youdbetterrun:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 54.61 76.2 0)
 			(effects
 				(font
@@ -3578,7 +3578,7 @@
 			(uuid "220720ab-5147-4cd6-984f-2324ed5fa62c")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "J201")
 					(unit 1)
@@ -3681,7 +3681,7 @@
 			(uuid "ff32c0f1-8c9e-4476-a8bc-4fc467ad5c9f")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "Q202")
 					(unit 1)
@@ -3823,7 +3823,7 @@
 			(uuid "4ba13f82-0f4a-4550-b036-be73f6707daf")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "R202")
 					(unit 1)
@@ -3903,7 +3903,7 @@
 			(uuid "b71285f8-0372-4c86-a2d7-cfcc0f972da9")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#FLG02")
 					(unit 1)
@@ -3969,7 +3969,7 @@
 			(uuid "3b41615e-3624-4be2-8bc4-399aec44ba02")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#PWR0206")
 					(unit 1)
@@ -4035,7 +4035,7 @@
 			(uuid "6bd2bea4-ea97-4e8a-ae24-61eb54c52132")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#PWR0207")
 					(unit 1)
@@ -4185,7 +4185,7 @@
 			(uuid "19148624-41ad-48ff-9f5e-7b35363cf3e4")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "C208")
 					(unit 1)
@@ -4251,7 +4251,7 @@
 			(uuid "ec2d3976-4ef3-406c-ad2f-488fbda48c65")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#PWR0213")
 					(unit 1)
@@ -4373,7 +4373,7 @@
 			(uuid "2c6f5ac1-5bc3-4dae-9c3d-a1590b44be59")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "R205")
 					(unit 1)
@@ -4512,7 +4512,7 @@
 			(uuid "ea310f0b-4e89-4352-ae14-02d97fe67490")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "R203")
 					(unit 1)
@@ -4578,7 +4578,7 @@
 			(uuid "f6edde96-d5bd-439b-8f68-22a3044c6f41")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#PWR0212")
 					(unit 1)
@@ -4738,7 +4738,7 @@
 			(uuid "10456638-a8ae-49ae-b074-b045788d982c")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "C206")
 					(unit 1)
@@ -4898,7 +4898,7 @@
 			(uuid "28c4d890-2ec6-4ec4-b8f4-7143df72cb1a")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "C201")
 					(unit 1)
@@ -5090,7 +5090,7 @@
 			(uuid "286a2c41-76c1-4301-bab8-5399acf3274f")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "U202")
 					(unit 1)
@@ -5229,7 +5229,7 @@
 			(uuid "276a101a-bd3c-49c3-81a9-fb9c4afc6760")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "R204")
 					(unit 1)
@@ -5333,7 +5333,7 @@
 			(uuid "3009c8c6-0e6c-4fdb-a505-253aa7e83854")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "D201")
 					(unit 1)
@@ -5474,7 +5474,7 @@
 			(uuid "5f9f5ddb-08b0-4403-b7e0-7b4df9245c78")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "R201")
 					(unit 1)
@@ -5554,7 +5554,7 @@
 			(uuid "d23d84c2-b98b-4b80-aca1-d0bfd3c4f6c0")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#FLG01")
 					(unit 1)
@@ -5620,7 +5620,7 @@
 			(uuid "cee90586-482e-4f74-9db6-d642a43d5bc5")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#PWR0202")
 					(unit 1)
@@ -5770,7 +5770,7 @@
 			(uuid "aa1890e4-ec82-4b4b-9483-53773f4ffc2b")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "C202")
 					(unit 1)
@@ -5846,7 +5846,7 @@
 			(uuid "b428a66c-5106-4c97-9e4d-2199e053bf25")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#PWR0205")
 					(unit 1)
@@ -5949,7 +5949,7 @@
 			(uuid "c37a0290-682c-4698-bf0a-275a0519908b")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "Q201")
 					(unit 1)
@@ -6015,7 +6015,7 @@
 			(uuid "3783b386-8c3b-4d86-85a3-c92e4f36575f")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#PWR0201")
 					(unit 1)
@@ -6081,7 +6081,7 @@
 			(uuid "4d8b2af8-c8e4-496b-a4f1-31c9b190818e")
 		)
 		(instances
-			(project "busbuddy"
+			(project "youdbetterrun"
 				(path "/50da2b4e-34b1-4787-8ee6-5d7d17f804f4/951b5697-f1e3-4d2e-841e-7032f41eb35f"
 					(reference "#PWR0204")
 					(unit 1)

@@ -3322,7 +3322,7 @@
 			)
 		)
 	)
-	(footprint "busbuddy:L_4x4x2.6"
+	(footprint "youdbetterrun:L_4x4x2.6"
 		(layer "F.Cu")
 		(uuid "438f68e5-ad3a-42e2-9195-35e365600eb6")
 		(at 97 101.25 90)
@@ -3350,7 +3350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "busbuddy:L_4x4x2.6"
+		(property "Footprint" "youdbetterrun:L_4x4x2.6"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6078,7 +6078,7 @@
 			)
 		)
 	)
-	(footprint "busbuddy:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+	(footprint "youdbetterrun:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 		(layer "F.Cu")
 		(uuid "60c73a5b-5d08-47e0-8793-9cfe1c23923c")
 		(at 149 68 90)
@@ -6106,7 +6106,7 @@
 				)
 			)
 		)
-		(property "Footprint" "busbuddy:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "youdbetterrun:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8111,7 +8111,7 @@
 			)
 		)
 	)
-	(footprint "busbuddy:TS-1088R-02026_SW_SMD_3x4mm"
+	(footprint "youdbetterrun:TS-1088R-02026_SW_SMD_3x4mm"
 		(layer "F.Cu")
 		(uuid "97f20b9e-b6ab-4ca9-bebe-7ec97477f21b")
 		(at 134 82.5 90)
@@ -8140,7 +8140,7 @@
 				)
 			)
 		)
-		(property "Footprint" "busbuddy:TS-1088R-02026_SW_SMD_3x4mm"
+		(property "Footprint" "youdbetterrun:TS-1088R-02026_SW_SMD_3x4mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12086,7 +12086,7 @@
 			)
 		)
 	)
-	(footprint "busbuddy:TS-1088R-02026_SW_SMD_3x4mm"
+	(footprint "youdbetterrun:TS-1088R-02026_SW_SMD_3x4mm"
 		(layer "F.Cu")
 		(uuid "c9ca6af4-a378-4bd5-8628-a1f1d36a989c")
 		(at 138 82.5 90)
@@ -12115,7 +12115,7 @@
 				)
 			)
 		)
-		(property "Footprint" "busbuddy:TS-1088R-02026_SW_SMD_3x4mm"
+		(property "Footprint" "youdbetterrun:TS-1088R-02026_SW_SMD_3x4mm"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
