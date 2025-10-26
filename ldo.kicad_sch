@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "e87a93b2-df70-47aa-a078-0e41d9c35903")
 	(paper "A5")
+	(title_block
+		(title "LDO")
+		(company "Marcel Robitaille")
+	)
 	(lib_symbols
 		(symbol "Device:C_Small"
 			(pin_numbers

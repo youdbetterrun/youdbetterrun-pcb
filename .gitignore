@@ -3,3 +3,5 @@ _autosave*
 Fabrication Artifacts
 BOM.csv
 .kiri
+*-backups
+fp-info-cache
