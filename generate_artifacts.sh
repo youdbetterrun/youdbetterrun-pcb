@@ -4,7 +4,8 @@ set -e
 
 readonly pcbFile="youdbetterrun.kicad_pcb"
 readonly schFile="youdbetterrun.kicad_sch"
-readonly outputFolder="$(pwd)/fabrication artifacts rev C"
+readonly revision="RevC"
+readonly outputFolder="$(pwd)/fabrication artifacts ${revision}"
 readonly projectName="YoudBetterRun"
 
 figlet -w 300 Check for TODOs
@@ -33,7 +34,7 @@ kicad-cli pcb drc \
 figlet -w 300 Generate Gerber files
 
 readonly gerberFolder="${outputFolder}/gerbers/"
-readonly gerberZip="${projectName}_Gerbers.zip"
+readonly gerberZip="${projectName}_Gerbers_${revision}.zip"
 mkdir --parents "${gerberFolder}"
 rm --force "${gerberFolder}/"*
 rm --force "${outputFolder}/gerbers.zip"
@@ -51,52 +52,52 @@ kicad-cli pcb export gerbers \
 	--output "${gerberFolder}" \
 	"${pcbFile}"
 
-figlet -w 300 Generate Bill of Materials
+# figlet -w 300 Generate Bill of Materials
 
-kicad-cli sch export bom \
-	--ref-range-delimiter '' \
-	--preset BOM \
-	--output "${outputFolder}/${projectName}_BOM.csv" \
-	"${schFile}"
+# kicad-cli sch export bom \
+# 	--ref-range-delimiter '' \
+# 	--preset BOM \
+# 	--output "${outputFolder}/${projectName}_BOM.csv" \
+# 	"${schFile}"
 
-figlet -w 300 Generate position files
+# figlet -w 300 Generate position files
 
-kicad-cli pcb export pos \
-	--side both \
-	--exclude-dnp \
-	--units "mm" \
-	--output "${outputFolder}/${projectName}_ComponentPlacement.pos" \
-	"${pcbFile}"
+# kicad-cli pcb export pos \
+# 	--side both \
+# 	--exclude-dnp \
+# 	--units "mm" \
+# 	--output "${outputFolder}/${projectName}_ComponentPlacement.pos" \
+# 	"${pcbFile}"
 
-figlet -w 300 Generate assembly plan
+# figlet -w 300 Generate assembly plan
 
-kicad-cli pcb export pdf \
-	--theme _builtin_classic \
-	--output "assembly_plan/${projectName}_TopAssembly.pdf" \
-	--layers F.Fab,F.Silkscreen,Edge.Cuts \
-	--include-border-title \
-	"${pcbFile}"
+# kicad-cli pcb export pdf \
+# 	--theme _builtin_classic \
+# 	--output "assembly_plan/${projectName}_TopAssembly.pdf" \
+# 	--layers F.Fab,F.Silkscreen,Edge.Cuts \
+# 	--include-border-title \
+# 	"${pcbFile}"
 
-kicad-cli pcb export pdf \
-	--theme _builtin_classic \
-	--mirror \
-	--output "assembly_plan/${projectName}_BottomAssembly.pdf" \
-	--layers B.Fab,B.Silkscreen,Edge.Cuts \
-	--include-border-title \
-	"${pcbFile}"
+# kicad-cli pcb export pdf \
+# 	--theme _builtin_classic \
+# 	--mirror \
+# 	--output "assembly_plan/${projectName}_BottomAssembly.pdf" \
+# 	--layers B.Fab,B.Silkscreen,Edge.Cuts \
+# 	--include-border-title \
+# 	"${pcbFile}"
 
-mkdir --parents assembly_plan/drills
-rm --force assembly_plan/drills/*
-kicad-cli pcb export drill \
-	--generate-map \
-	--map-format pdf \
-	--excellon-separate-th \
-	--output "assembly_plan/drills/" \
-	"${pcbFile}"
+# mkdir --parents assembly_plan/drills
+# rm --force assembly_plan/drills/*
+# kicad-cli pcb export drill \
+# 	--generate-map \
+# 	--map-format pdf \
+# 	--excellon-separate-th \
+# 	--output "assembly_plan/drills/" \
+# 	"${pcbFile}"
 
-for f in assembly_plan/drills/*.pdf; do
-	pdfcrop "${f}"
-done
+# for f in assembly_plan/drills/*.pdf; do
+# 	pdfcrop "${f}"
+# done
 
 rm --force "${outputFolder}/${gerberZip}"
 (cd "${gerberFolder}" && zip "../${gerberZip}" *)
